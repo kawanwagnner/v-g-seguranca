@@ -60,10 +60,8 @@ $(document).ready(function () {
   });
 });
 
-
 const btn = document.querySelector(".menu");
 const linksNavBar = document.querySelectorAll('li a[href^="#"]');
-
 
 btn.addEventListener("click", () => {
   function removeMenu() {
@@ -71,10 +69,7 @@ btn.addEventListener("click", () => {
     navbarActive.classList.remove("active");
   }
 
-  linksNavBar[0].addEventListener("click", (e) => removeMenu());
-  linksNavBar[1].addEventListener("click", (e) => removeMenu());
-  linksNavBar[2].addEventListener("click", (e) => removeMenu());
-  linksNavBar[3].addEventListener("click", (e) => removeMenu());
-  linksNavBar[4].addEventListener("click", (e) => removeMenu());
-  linksNavBar[5].addEventListener("click", (e) => removeMenu());
+  linksNavBar.forEach((link) => {
+    link.addEventListener("click", (e) => removeMenu());
+  });
 });

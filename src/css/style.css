@@ -424,27 +424,55 @@ footer {
 }
 
 .skills .skills-content .right .html::before {
-  width: 93%;
+  animation: animationLine100 2s forwards;
 }
 
 .skills .skills-content .right .css::before {
-  width: 85%;
+  animation: animationLine90 3s forwards;
 }
 
 .skills .skills-content .right .js::before {
-  width: 87%;
+  animation: animationLine90 3s forwards;
 }
 
 .skills .skills-content .right .php::before {
-  width: 47%;
+  animation: animationLine100 3s forwards;
 }
 
 .skills .skills-content .right .mysql::before {
-  width: 42%;
+  animation: animationLine90 3s forwards;
 }
 
-.list-habilidades {
-  margin-left: 5%;
+@keyframes animationLine100 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes animationLine90 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes animationLine80 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.list-habilidades li {
+  font-size: 1.2em;
+  margin-left: 30px;
 }
 
 /*  sessão equipe  */
