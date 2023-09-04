@@ -29,6 +29,70 @@ $(document).ready(function () {
     loop: true,
   });
 
+  // Inicialize os Waypoints para cada seção que deseja animar
+  $(
+    ".text, .title, p, .text-1, .text-2, .text-3, .btn-about, .logo, item1"
+  ).waypoint(
+    function (direction) {
+      if (direction === "down") {
+        // Adicione suas animações aqui
+        $(this.element).addClass("animate__animated animate__slideInLeft");
+
+        $(this.element).addClass("block");
+        $(this.element).removeClass("none");
+      }
+    },
+    {
+      offset: "70%",
+    }
+  );
+
+  // Inicialize os Waypoints para cada seção que deseja animar
+  $("ul, .container-lines").waypoint(
+    function (direction) {
+      if (direction === "down") {
+        // Adicione suas animações aqui
+        $(this.element).addClass("animate__animated animate__slideInRight");
+
+        $(this.element).addClass("block");
+        $(this.element).removeClass("none");
+      }
+    },
+    {
+      offset: "70%",
+    }
+  );
+
+  // ---------------------------------- <<Teste>>
+
+  // Inicialize os Waypoints para as linhas de animação
+  $(".line").waypoint(
+    function (direction) {
+      if (direction === "down") {
+        // Adicione a classe de animação correspondente
+        $(this.element).addClass("animate__slideInLeft");
+
+        // Determine a animação com base na classe da linha
+        if ($(this.element).hasClass("html")) {
+          $(this.element).css("animation", "animationLine100 2s forwards");
+        } else if ($(this.element).hasClass("css")) {
+          $(this.element).css("animation", "animationLine90 3s forwards");
+        } else if ($(this.element).hasClass("js")) {
+          $(this.element).css("animation", "animationLine90 3s forwards");
+        } else if ($(this.element).hasClass("php")) {
+          $(this.element).css("animation", "animationLine100 3s forwards");
+        } else if ($(this.element).hasClass("mysql")) {
+          $(this.element).css("animation", "animationLine80 3s forwards");
+        }
+      }
+    },
+    {
+      offset: "70%", // Ajuste esse valor conforme necessário para controlar quando a animação ocorrerá
+    }
+  );
+
+  // ---------------------------------- <<Teste>>
+
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");

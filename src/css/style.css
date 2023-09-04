@@ -18,6 +18,14 @@ html {
   margin: auto;
 }
 
+.none {
+  visibility: hidden;
+}
+
+.block {
+  visibility: visible;
+}
+
 /*  NavBAr; */
 
 .navbar {
@@ -113,6 +121,8 @@ html {
 }
 
 .home .max-width {
+  max-width: 1330px;
+  width: 999em;
   margin: auto 0 auto 40px;
 }
 
@@ -457,16 +467,7 @@ footer {
     width: 0%;
   }
   to {
-    width: 90%;
-  }
-}
-
-@keyframes animationLine80 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 80%;
+    width: 95%;
   }
 }
 
