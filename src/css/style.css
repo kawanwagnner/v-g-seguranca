@@ -121,8 +121,11 @@ html {
 }
 
 .home .max-width {
-  max-width: 1330px;
-  width: 999em;
+  width: 100%;
+  margin: auto;
+}
+
+.home .home-content {
   margin: auto 0 auto 40px;
 }
 
