@@ -31,7 +31,7 @@ $(document).ready(function () {
 
   // Inicialize os Waypoints para cada seção que deseja animar
   $(
-    ".text, .title, p, .text-1, .text-2, .text-3, .btn-about, .logo, item1"
+    ".text, .title, p, .text-1, .text-2, .text-3, .btn-about, .logo, .head, .sub-title"
   ).waypoint(
     function (direction) {
       if (direction === "down") {
