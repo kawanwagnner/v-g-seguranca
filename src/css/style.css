@@ -13,7 +13,7 @@ html {
 }
 
 .max-width {
-  max-width: 1300px;
+  max-width: 1400px;
   padding: 0 80px;
   margin: auto;
 }
@@ -721,6 +721,80 @@ footer span a:hover {
   transition: 0.5s;
 }
 
+/* Pop Up */
+
+.pop-up {
+  position: fixed;
+  margin: 5% auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.box-popup {
+  background-color: #222;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 50%;
+  height: 400px;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  margin: 30% auto 0 auto;
+  background-color: #0000ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: white;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #0000ff;
+}
+
+.title-popup {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.message-popup {
+  padding: 20px 65px 10px 65px;
+  color: #fff;
+  font-size: 1.11em;
+  margin-bottom: 40px;
+}
+
 /*  responsivo  */
 @media (max-width: 1300px) {
   .navbar .max-width {
@@ -816,6 +890,10 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+
+  .box-popup {
+    width: 80%;
   }
 
   footer {

@@ -1,0 +1,85 @@
+.trainings {
+  background: #111;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.trainings .title::before {
+  background: #fff;
+}
+
+.trainings .title::after {
+  background: #111;
+  content: "Em ação";
+}
+
+.trainings .carousel .card {
+  background: #222;
+  margin: 20px;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.trainings .carousel .card:hover {
+  background: blue;
+  transition: all 0.5s ease;
+}
+
+.trainings .carousel .card img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid blue;
+  transition: all 0.3s ease;
+}
+
+.trainings .carousel .card:hover img {
+  border-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.trainings .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.trainings .carousel .card:hover .box {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.trainings .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.btn-more-training {
+  display: block;
+  background: blue;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 2px solid blue;
+  transition: all 0.3s ease;
+  width: 270px;
+  text-align: center;
+  padding: 12px;
+}
+
+.btn-more-training:hover {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  transition: all 0.5s ease;
+}

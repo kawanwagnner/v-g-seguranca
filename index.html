@@ -7,228 +7,434 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="shortcut icon" href="src/image/logo-img.png" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/style.css"> 
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/trainings.css">
+    <link rel="stylesheet" href="src/css/courses.css">
+
     <title class="none">V.G Segurança</title>
 </head>
 
 <body>
-    <div class="scroll-up-btn">
-        <ion-icon name="chevron-up-outline"></ion-icon>
+    <header>
+
+        <div class="scroll-up-btn">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+        </div>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <img src="src/image/logo1.png" alt="3" style="width: 80px;">
+                    <a href="index.html#home">V.G <span>Segurança</span></a>
+                </div>
+                <ul class="menu none">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#skills">Especialidades</a></li>
+                    <li><a href="#teams">Recursos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- <div class="row pop-up">
+    <div class="box-popup small-6 large-centered">
+      <button class="close-button">&#10006;</button>
+      <h3 class="title-popup">Olá! O que está achando da experiência? 🤔</h3>
+      <p class="message-popup">Sinta-se à vontade para nos mandar seu feedback <br> ou observação via email: vg.seguranca@gmail.com. </p>
+      <br>
+      <a href="mailto:vg.seguranca@gmail.com" target="_blank" class="button">Enviar feedback ✔️</a>
     </div>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo">
-                <img src="src/image/logo1.png" alt="3" style="width: 80px;">
-                <a href="index.html#home">V.G <span>Segurança</span></a>
-            </div>
-            <ul class="menu none">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#skills">Especialidades</a></li>
-                <li><a href="#teams">Recursos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-            <div class="menu-btn">
-                <ion-icon name="menu-outline"></ion-icon>
-            </div>
-        </div>
-    </nav>
+  </div> -->
 
-    <!--home inicio-->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Somos a</div>
-                <div class="text-2">V.G Segurança</div>
-                <div class="text-3">e nossa rede <br> abrange <span class="typing"></span></div>
-                <a class="btn-about none" href="#about">Quem somos</a>
-            </div>
-        </div>
-    </section>
-
-    <!--sessão sobre-->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title none">Quem somos</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="src/image/policia.png" alt="Foto Valdemir">
-                </div>
-                <div class="column right">
-                    <div class="text none">Prezamos por <br> <span class="typing-2"></span></div>
-                    <p class="none">Somos uma empresa de segurança com tecnologia, dedicada a fornecer soluções inovadoras e eficazes para garantir a segurança de nossos clientes. Nossa equipe é composta por profissionais altamente qualificados e experientes no campo da segurança e tecnologia. Utilizamos as mais recentes tecnologias para oferecer aos nossos clientes soluções personalizadas e adaptadas às suas necessidades específicas. Nossa missão é fornecer tranquilidade e segurança aos nossos clientes através de nossos serviços de alta qualidade.</p>
-                    <a href="#services">Serviços prestados</a>
+    <main id="overlay" class="cover blur-in">
+        <!--home inicio-->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Somos a</div>
+                    <div class="text-2">V.G Segurança</div>
+                    <div class="text-3">e nossa rede <br> abrange <span class="typing"></span></div>
+                    <a class="btn-about none" href="#about">Quem somos</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--sessão serviços-->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title none">Serviços</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <ion-icon name="trending-up-outline"></ion-icon>
-                        <div class="text none">Agilidade de <br> Processos;</div>
+        <!--Sessão sobre-->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title none">Quem somos</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="src/image/policia.png" alt="Foto Valdemir">
+                    </div>
+                    <div class="column right">
+                        <div class="text none">Prezamos por <br> <span class="typing-2"></span></div>
+                        <p class="none">Somos uma empresa de segurança com tecnologia, dedicada a fornecer soluções
+                            inovadoras e eficazes para garantir a segurança de nossos clientes. Nossa equipe é composta
+                            por profissionais altamente qualificados e experientes no campo da segurança e tecnologia.
+                            Utilizamos as mais recentes tecnologias para oferecer aos nossos clientes soluções
+                            personalizadas e adaptadas às suas necessidades específicas. Nossa missão é fornecer
+                            tranquilidade e segurança aos nossos clientes através de nossos serviços de alta qualidade.
+                        </p>
+                        <a href="#services">Serviços prestados</a>
                     </div>
                 </div>
-
-                <div class="card">
-                    <div class="box">
-                        <ion-icon name="file-tray-outline"></ion-icon>
-                        <div class="text none">Rápido retorno <br> de Propostas;</div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="box">
-                        <ion-icon name="finger-print-outline"></ion-icon>
-                        <div class="text none">Tecnologia <br> de Ponta;</div>
-                    </div>
-
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--sessão especialidade-->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title none">Especialidades</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text none">Nossas habilidades e experiências;</div>
-                    <div>
-                    <ul class="list-habilidades none">
-                        <li>Atuação nas áreas.</li>
-                        <li>vigilância armada.</li>
-                        <li>Supervisão de segurança.</li>
-                        <li>Monitoramento de câmeras e drones.</li>
-                        <li>Bombeiros civis e NR's.</li>
-                    </ul>
-                    </div>
-                    <a href="https://docs.google.com/uc?export=download&id=14rsaN7m5GaWy2bYUCR7Gb2ZU284AosHb"
-                        target="_blank">Mais informações</a>
-                </div>
-                <div class="column right container-lines none">
-                    <div class="bars">
-                        <div class="info">
-                            <span>Criação de apresentações</span>
+        <!--Sessão serviços-->
+        <section class="services" id="services">
+            <div class="max-width">
+                <h2 class="title none">Serviços</h2>
+                <div class="serv-content">
+                    <div class="card">
+                        <div class="box">
+                            <ion-icon name="trending-up-outline"></ion-icon>
+                            <div class="text none">Agilidade de <br> Processos;</div>
                         </div>
-                        <div class="line html animate__animated"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Inovação em projetos</span>
+                    <div class="card">
+                        <div class="box">
+                            <ion-icon name="file-tray-outline"></ion-icon>
+                            <div class="text none">Rápido retorno <br> de Propostas;</div>
                         </div>
-                        <div class="line mysql animate__animated"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Implementação de padrões</span>
+                    <div class="card">
+                        <div class="box">
+                            <ion-icon name="finger-print-outline"></ion-icon>
+                            <div class="text none">Tecnologia <br> de Ponta;</div>
                         </div>
-                        <div class="line js animate__animated"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Adaptabilidade de processos</span>
-                        </div>
-                        <div class="line css animate__animated"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Gestão pessoas</span>
-                        </div>
-                        <div class="line html animate__animated"></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--sessão equipe-->
-    <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title none">Nossos recursos</h2>
-            <div class="carousel owl-carousel ">
-                <div class="card">
-                    <div class="box">
-                        <img src="src/image/monitoramento.png" alt="">
-                        <div class="text none">Monitoramento 24h</div>
-                        <p>Monitoramento de segurança é o processo automatizado de recebimento, análise e armazenamento de dados enviados por equipamentos de segurança eletrônico. Tem como objetivo a análise de indicadores de ameaças de segurança em potencial para que, a partir dessas informações, seja conduzida a triagem das ameaças e a tomada das ações devidas.</p=>
+        <!--Sessão especialidade-->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title none">Especialidades</h2>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="text none">Nossas habilidades e experiências;</div>
+                        <div>
+                            <ul class="list-habilidades none">
+                                <li>Atuação nas áreas.</li>
+                                <li>vigilância armada.</li>
+                                <li>Supervisão de segurança.</li>
+                                <li>Monitoramento de câmeras e drones.</li>
+                                <li>Bombeiros civis e NR's.</li>
+                            </ul>
+                        </div>
+                        <a href="https://docs.google.com/uc?export=download&id=14rsaN7m5GaWy2bYUCR7Gb2ZU284AosHb"
+                            target="_blank">Mais informações</a>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="src/image/drones.png" alt="">
-                        <div class="text none">Drones de vigilância</div>
-                        <p>As rondas de drones são uma forma eficiente de garantir a segurança perimetral de um local. Algumas plataformas permitem que o drone percorra uma rota pré-determinada, ou seja, um vôo automatizado onde são determinadas as coordenadas do perímetro a ser vigiado com o incremento, a cada waypoint, de uma ação diferente aplicada. Por exemplo, parar, diminuir a altitude ou rotacionar a câmera. </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="src/image/cartao-acesso.jpg" alt="">
-                        <div class="text none">Controle de acesso</div>
-                        <p>Controle de acesso é um procedimento de segurança que permite a entrada a locais de acesso restrito apenas a pessoas autorizadas. Esse mecanismo funciona graças a um roteiro de processos, que inclui pelo menos três fases: Cadastro da pessoa, Identificação, Verificação da identidade do usuário por meio de biometria, cartão ou senha e por último a Autorização.</p>
+                    <div class="column right container-lines none">
+                        <div class="bars">
+                            <div class="info">
+                                <span>Criação de apresentações</span>
+                            </div>
+                            <div class="line html animate__animated"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Inovação em projetos</span>
+                            </div>
+                            <div class="line mysql animate__animated"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Implementação de padrões</span>
+                            </div>
+                            <div class="line js animate__animated"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Adaptabilidade de processos</span>
+                            </div>
+                            <div class="line css animate__animated"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Gestão pessoas</span>
+                            </div>
+                            <div class="line html animate__animated"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Sessão contato-->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title none">Contato</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div id="container-contato">
-                        <div class="text none">Fale Conosco</div>
-                        <p>Segue abaixo alguns meios de contato diretamente comigo. <br> Espero sua
-                            Mensagem!!</p>
-                        <div class="icons">
-                            <div class="row">
-                                <ion-icon name="person-outline"></ion-icon>
-                                <div class="info">
-                                    <div class="head">Nome</div>
-                                    <div class="sub-title none">
-                                        <p>Valdemir Gonçalves Silva <br> <a href="https://contate.me/portfolio-valdemir"
-                                                target="_blank">(11) 93325-6551.</a></p>
+        <!--Sessão equipe-->
+        <section class="teams" id="teams">
+            <div class="max-width">
+                <h2 class="title none">Nossos recursos</h2>
+                <div class="carousel owl-carousel ">
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/monitoramento.png" alt="">
+                            <div class="text">Monitoramento 24h</div>
+                            <p>Monitoramento de segurança é o processo automatizado de recebimento, análise e
+                                armazenamento de dados enviados por equipamentos de segurança eletrônico. Tem como
+                                objetivo a análise de indicadores de ameaças de segurança em potencial para que, a
+                                partir dessas informações, seja conduzida a triagem das ameaças e a tomada das ações
+                                devidas.</p=>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/drones.png" alt="">
+                            <div class="text">Drones de vigilância</div>
+                            <p>As rondas de drones são uma forma eficiente de garantir a segurança perimetral de um
+                                local. Algumas plataformas permitem que o drone percorra uma rota pré-determinada, ou
+                                seja, um vôo automatizado onde são determinadas as coordenadas do perímetro a ser
+                                vigiado com o incremento, a cada waypoint, de uma ação diferente aplicada. Por exemplo,
+                                parar, diminuir a altitude ou rotacionar a câmera. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/cartao-acesso.jpg" alt="">
+                            <div class="text">Controle de acesso</div>
+                            <p>Controle de acesso é um procedimento de segurança que permite a entrada a locais de
+                                acesso restrito apenas a pessoas autorizadas. Esse mecanismo funciona graças a um
+                                roteiro de processos, que inclui pelo menos três fases: Cadastro da pessoa,
+                                Identificação, Verificação da identidade do usuário por meio de biometria, cartão ou
+                                senha e por último a Autorização.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--Sessão treinamento-->
+        <section class="courses" id="courses">
+            <div class="max-width">
+                <h2 class="title none">Treinamentos</h2>
+                <div class="courses-content">
+                    <!-- <div class="column left">
+                        <div class="text none">Trabalhando sempre com;</div>
+                        <div>
+                            <ul class="list-habilidades none">
+                                <li>Comunicação Clara e Eficaz</li>
+                                <li>Adaptabilidade</li>
+                                <li>Empatia</li>
+                                <li>Habilidades de Motivação</li>
+                                <li>Organização</li>
+                                <li>Capacidade de Avaliação</li>
+                                <li>Inovação e Criatividade</li>
+                                <li>Respeito pela Diversidade</li>
+                                <li>Ética Profissional</li>
+                            </ul>
+                        </div>
+                        <a href="https://docs.google.com/uc?export=download&id=14rsaN7m5GaWy2bYUCR7Gb2ZU284AosHb"
+                            target="_blank">Mais informações</a>
+                    </div> -->
+
+                    <div class="ag-format-container">
+                        <div class="ag-courses_box">
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+                              </div>
+                      
+                              <div class="ag-courses-item_date-box">
+                                Start:
+                                <span class="ag-courses-item_date">
+                                  04.11.2022
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                      
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                UX/UI Web-Design&#160;+ Mobile Design
+                              </div>
+                      
+                              <div class="ag-courses-item_date-box">
+                                Start:
+                                <span class="ag-courses-item_date">
+                                  04.11.2022
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                      
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                Annual package "Product+UX/UI+Graph designer&#160;2022"
+                              </div>
+                      
+                              <div class="ag-courses-item_date-box">
+                                Start:
+                                <span class="ag-courses-item_date">
+                                  04.11.2022
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                      
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                Graphic Design
+                              </div>
+                      
+                              <div class="ag-courses-item_date-box">
+                                Start:
+                                <span class="ag-courses-item_date">
+                                  04.11.2022
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                      
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                Motion Design
+                              </div>
+                      
+                              <div class="ag-courses-item_date-box">
+                                Start:
+                                <span class="ag-courses-item_date">
+                                  30.11.2022
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                      
+                          <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                              <div class="ag-courses-item_bg"></div>
+                      
+                              <div class="ag-courses-item_title">
+                                Front-end development&#160;+ jQuery&#160;+ CMS
+                              </div>
+                            </a>
+                          </div>
+                      
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Sessão equipe-->
+        <section class="trainings" id="trainings">
+            <div class="max-width">
+                <h2 class="title none">Nosso treinamento</h2>
+                <div class="carousel owl-carousel ">
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/trainings/curso-garcom-2.png" alt="">
+                            <div class="text">Treinamento Copa</div>
+                            <p>Controle de acesso é um procedimento de segurança que permite a entrada a locais de
+                                acesso restrito apenas a pessoas autorizadas. Esse mecanismo funciona graças a um
+                                roteiro de processos, que inclui pelo menos três fases: Cadastro da pessoa,
+                                Identificação, Verificação da identidade do usuário por meio de biometria, cartão ou
+                                senha e por último a Autorização.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/trainings/curso-enotel.png" alt="">
+                            <div class="text">Treinamento Enotel</div>
+                            <p>As rondas de drones são uma forma eficiente de garantir a segurança perimetral de um
+                                local. Algumas plataformas permitem que o drone percorra uma rota pré-determinada, ou
+                                seja, um vôo automatizado onde são determinadas as coordenadas do perímetro a ser
+                                vigiado com o incremento, a cada waypoint, de uma ação diferente aplicada. Por exemplo,
+                                parar, diminuir a altitude ou rotacionar a câmera. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="src/image/trainings/copa.png" alt="">
+                            <div class="text">Treinamento Copa</div>
+                            <p>Controle de acesso é um procedimento de segurança que permite a entrada a locais de
+                                acesso restrito apenas a pessoas autorizadas. Esse mecanismo funciona graças a um
+                                roteiro de processos, que inclui pelo menos três fases: Cadastro da pessoa,
+                                Identificação, Verificação da identidade do usuário por meio de biometria, cartão ou
+                                senha e por último a Autorização.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn-more-training" href="#">Mais sobre os <br> Treinamentos</a>
+            </div>
+        </section>
+
+        <!-- WORK ^^^^^ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--Sessão contato-->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title none">Contato</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div id="container-contato">
+                            <div class="text none">Fale Conosco</div>
+                            <p>Segue abaixo alguns meios de contato diretamente comigo. <br> Espero sua
+                                Mensagem!!</p>
+                            <div class="icons">
+                                <div class="row">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                    <div class="info">
+                                        <div class="head">Nome</div>
+                                        <div class="sub-title none">
+                                            <p>Valdemir Gonçalves Silva <br> <a
+                                                    href="https://contate.me/portfolio-valdemir" target="_blank">(11)
+                                                    93325-6551.</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ion-icon name="earth-outline"></ion-icon>
+                                    <div class="info">
+                                        <div class="head">Endereço</div>
+                                        <div class="sub-title">São Paulo, SP.</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                    <div class="info">
+                                        <div class="head">Email</div>
+                                        <div class="sub-title">
+                                            <a href="mailto:vg.seguranca@gmail.com"
+                                                target="_blank">vg.seguranca@gmail.com.
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <ion-icon name="earth-outline"></ion-icon>
-                                <div class="info">
-                                    <div class="head none">Endereço</div>
-                                    <div class="sub-title none">São Paulo, SP.</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <ion-icon name="person-outline"></ion-icon>
-                                <div class="info">
-                                    <div class="head none">Email</div>
-                                    <div class="sub-title none">
-                                        <a href="mailto:vg.seguranca@gmail.com"
-                                            target="_blank">vg.seguranca@gmail.com.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!--sessão  footer-->
+    <!--Sessão  footer-->
     <footer>
         <span>&copy; V.G Segurança | Todos os direitos
             reservados
