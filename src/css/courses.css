@@ -1,4 +1,8 @@
 /*  sessão especialidades  */
+.courses {
+  overflow-x: hidden;
+}
+
 .courses .title::after {
   content: "Que aplicamos";
 }
@@ -122,10 +126,10 @@
   background-color: #4c49ea;
 }
 
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 1245px) {
   .ag-courses_item {
     -ms-flex-preferred-size: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
+    flex-basis: calc(50% - 190px);
   }
 
   .ag-courses-item_title {
@@ -133,7 +137,12 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 940px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+
   .ag-format-container {
     width: 96%;
   }

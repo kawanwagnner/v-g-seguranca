@@ -27,7 +27,7 @@
   transition: all 0.5s ease;
 }
 
-.trainings .carousel .card img {
+.trainings .carousel .card .img-training {
   width: 250px;
   height: 200px;
   object-fit: cover;
@@ -36,7 +36,7 @@
   transition: all 0.3s ease;
 }
 
-.trainings .carousel .card:hover img {
+.trainings .carousel .card:hover .img-training {
   border-color: #fff;
   transition: all 0.5s ease;
 }
@@ -59,6 +59,14 @@
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+}
+
+.trainings .carousel .card .logo-company {
+  object-fit: contain;
+  margin: 10px auto;
+  border: none;
+  width: 100px;
+  display: block;
 }
 
 .btn-more-training {
