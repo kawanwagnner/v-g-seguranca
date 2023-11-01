@@ -1,6 +1,6 @@
 /*  sessão especialidades  */
 .courses .title::after {
-  content: "Que lecionamos";
+  content: "Que aplicamos";
 }
 
 .ag-format-container {
