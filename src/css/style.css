@@ -257,6 +257,10 @@ footer {
 
 /*  sessão sobre  */
 
+.about {
+  background-color: #fff;
+}
+
 .about .title::after {
   content: "Objetividade";
 }
@@ -368,6 +372,10 @@ footer {
 }
 
 /*  sessão especialidades  */
+.skills {
+  background-color: #fff;
+}
+
 .skills .title::after {
   content: "Que temos";
 }
@@ -561,6 +569,10 @@ footer {
 }
 
 /*  sessão Contato  */
+.contact {
+  background-color: #fff;
+}
+
 .contact .title::after {
   content: "Fale conosco";
 }
