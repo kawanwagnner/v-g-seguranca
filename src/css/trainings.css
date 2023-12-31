@@ -16,6 +16,10 @@ body {
   background-color: #010340;
 }
 
+main {
+  margin-bottom: 20em;
+}
+
 .max-width {
   max-width: 1400px;
   padding: 0 80px;
@@ -123,6 +127,10 @@ body {
   color: #fff;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
+}
+
+.training-content {
+  margin: 50px auto 0 auto;
 }
 
 .home .max-width {
@@ -588,7 +596,7 @@ footer span a:hover {
 
 @media screen and (max-width: 800px) {
   .training-content {
-    margin: auto;
+    margin: 30px auto 0 auto;
     display: block;
   }
 
